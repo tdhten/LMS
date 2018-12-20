@@ -26,6 +26,5 @@ Github地址: https://github.com/tdhten/LMS.git
 开发工具：eclipse  jdk8  mysql navicat git2.15
 
 
-
-tell me why
+醉了
 
