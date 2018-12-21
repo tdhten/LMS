@@ -55,7 +55,7 @@ function validateLoginpass() {
 			type: "POST",
 			dataType: "json",
 			data: {method: "ajaxValidateLoginpass", loginpass: value},
-			url: "/bookstore/UserServlet",
+			url: "/bms/UserServlet",
 			success: function(flag) {
 				if(!flag) {
 					$("#loginpassError").css("display", "");
@@ -129,7 +129,7 @@ function validateVerifyCode() {
 			type: "POST",
 			dataType: "json",
 			data: {method: "ajaxValidateVerifyCode", verifyCode: value},
-			url: "/bookstore/UserServlet",
+			url: "/bms/UserServlet",
 			success: function(flag) {
 				if(!flag) {
 					$("#verifyCodeError").css("display", "");

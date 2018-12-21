@@ -78,7 +78,7 @@ function loadChildren() {
 	$.ajax({
 		async:true,
 		cache:false,
-		url:"/bookstore/admin/AdminBookServlet",
+		url:"/bms/admin/AdminBookServlet",
 		data:{method:"ajaxFindChildren", pid:pid},
 		type:"POST",
 		dataType:"json",

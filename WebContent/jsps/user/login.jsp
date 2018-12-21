@@ -4,17 +4,13 @@
 <html>
   <head>
     
-    <title>登录</title>
-    
+    <title>图书馆管理系统登录页面</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
 	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<!--
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	-->
 	<link rel="stylesheet" type="text/css" href="<c:url value='/jsps/css/user/login.css'/>">
 	<script type="text/javascript" src="<c:url value='/jquery/jquery-1.5.1.js'/>"></script>
 	<script type="text/javascript" src="<c:url value='/jsps/js/user/login.js'/>"></script>
@@ -42,7 +38,7 @@
 
   <body>
 	<div class="main">
-	  <div><img src="<c:url value='/images/logo.gif'/>" /></div>
+	  <div  style="margin-left: 370px;"><span style="font-size: 32px;">图书馆管理系统登录</span></div>
 	  <div>
 	    <div class="imageDiv"><img class="img" src="<c:url value='/images/zbg.jpg'/>"/></div>
         <div class="login1">

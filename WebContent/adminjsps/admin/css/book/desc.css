@@ -72,21 +72,21 @@ a:hover {
 }
 
 .editBtn1 {
-	background: url(/bookstore/images/huang_2_btn.jpg) left top
+	background: url(/bms/images/huang_2_btn.jpg) left top
 		no-repeat;
 }
 
 .editBtn2 {
-	background: url(/bookstore/images/huang_1_btn.jpg) left top
+	background: url(/bms/images/huang_1_btn.jpg) left top
 		no-repeat;
 }
 
 .delBtn1 {
-	background: url(/bookstore/images/hong_2_btn.jpg) left top
+	background: url(/bms/images/hong_2_btn.jpg) left top
 		no-repeat;
 }
 
 .delBtn2 {
-	background: url(/bookstore/images/hong_1_btn.jpg) left top
+	background: url(/bms/images/hong_1_btn.jpg) left top
 		no-repeat;
 }

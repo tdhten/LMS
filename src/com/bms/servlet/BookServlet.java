@@ -40,8 +40,8 @@ public class BookServlet extends BaseServlet {
 	 * @return
 	 */
 	/*
-	 * http://localhost:8080/bookstore/BookServlet?methed=findByCategory&cid=xxx&pc=3
-	 * /bookstore/BookServlet + methed=findByCategory&cid=xxx&pc=3
+	 * http://localhost:8080/bms/BookServlet?methed=findByCategory&cid=xxx&pc=3
+	 * /bms/BookServlet + methed=findByCategory&cid=xxx&pc=3
 	 */
 	private String getUrl(HttpServletRequest req) {
 		String url = req.getRequestURI() + "?" + req.getQueryString();

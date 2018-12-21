@@ -4,10 +4,10 @@ $(function() {
 	 */
 	$("#submit").hover(
 		function() {
-			$("#submit").attr("src", "/bookstore/images/login2.jpg");
+			$("#submit").attr("src", "/bms/images/login2.jpg");
 		},
 		function() {
-			$("#submit").attr("src", "/bookstore/images/login1.jpg");
+			$("#submit").attr("src", "/bms/images/login1.jpg");
 		}
 	);
 	
@@ -113,7 +113,7 @@ function validateVerifyCode() {
 			type: "POST",
 			dataType: "json",
 			data: {method: "ajaxValidateVerifyCode", verifyCode: value},
-			url: "/bookstore/UserServlet",
+			url: "/bms/UserServlet",
 			success: function(flag) {
 				if(!flag) {
 					$("#verifyCodeError").css("display", "");

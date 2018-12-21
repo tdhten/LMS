@@ -25,9 +25,7 @@ a {text-decoration: none;}
   </head>
   
   <body>
-    <h1>欢迎进入网上书城系统</h1>
-    <a href="https://my.oschina.net/u/3404998/blog" target="_top">
-      <img src="/bookstore/images/ceshi1.jpg" border="0" style="border:1px #DCD8D7 solid;"/>
-    </a>
+    <h1>欢迎进入图书馆管理系统</h1>
+      <img src="/bms/images/ceshi1.jpg" border="0" style="border:1px #DCD8D7 solid;"/>
   </body>
 </html>

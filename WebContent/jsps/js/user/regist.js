@@ -11,10 +11,10 @@ $(function() {
 	 */
 	$("#submitBtn").hover(
 		function() {
-			$("#submitBtn").attr("src", "/bookstore/images/regist2.jpg");
+			$("#submitBtn").attr("src", "/bms/images/regist2.jpg");
 		},
 		function() {
-			$("#submitBtn").attr("src", "/bookstore/images/regist1.jpg");
+			$("#submitBtn").attr("src", "/bms/images/regist1.jpg");
 		}
 	);
 	
@@ -100,7 +100,7 @@ function validateLoginname(){
 	 * 3. 是否注册校验
 	 */
 	$.ajax({
-		url:"/bookstore/UserServlet",//要请求的servlet
+		url:"/bms/UserServlet",//要请求的servlet
 		data:{method:"ajaxValidateLoginname", loginname:value},//给服务器的参数
 		type:"POST",
 		dataType:"json",
@@ -223,7 +223,7 @@ function validateEmail() {
 	 * 3. 是否注册校验
 	 */
 	$.ajax({
-		url:"/bookstore/UserServlet",//要请求的servlet
+		url:"/bms/UserServlet",//要请求的servlet
 		data:{method:"ajaxValidateEmail", email:value},//给服务器的参数
 		type:"POST",
 		dataType:"json",
@@ -278,7 +278,7 @@ function validateVerifyCode() {
 	 */
 	
 	$.ajax({
-		url:"/bookstore/UserServlet",//要请求的servlet
+		url:"/bms/UserServlet",//要请求的servlet
 		data:{method:"ajaxValidateVerifyCode", verifyCode:value},//给服务器的参数
 		type:"POST",
 		dataType:"json",
@@ -316,5 +316,5 @@ function _hyz() {
 	 * 2. 重新设置它的src
 	 * 3. 使用毫秒来添加参数
 	 */
-	$("#imgVerifyCode").attr("src", "/bookstore/VerifyCodeServlet?a=" + new Date().getTime());
+	$("#imgVerifyCode").attr("src", "/bms/VerifyCodeServlet?a=" + new Date().getTime());
 }

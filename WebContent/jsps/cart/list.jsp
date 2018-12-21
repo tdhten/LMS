@@ -80,7 +80,7 @@
 							// 判断当前数量是否为1，如果为1,那就不是修改数量了，而是要删除了。
 							if (quantity == 1) {
 								if (confirm("您是否真要删除该条目？")) {
-									location = "/bookstore/CartItemServlet?method=batchDelete&cartItemIds="
+									location = "/bms/CartItemServlet?method=batchDelete&cartItemIds="
 											+ id;
 								}
 							} else {
@@ -103,7 +103,7 @@
 		$.ajax({
 			async : false,
 			cache : false,
-			url : "/bookstore/CartItemServlet",
+			url : "/bms/CartItemServlet",
 			data : {
 				method : "updateQuantity",
 				cartItemId : id,
@@ -178,7 +178,7 @@
 		});
 		if (cartItemIdArray.length == 0)
 			alert("请先选择！");
-		location = "/bookstore/CartItemServlet?method=batchDelete&cartItemIds="
+		location = "/bms/CartItemServlet?method=batchDelete&cartItemIds="
 				+ cartItemIdArray;
 	}
 
