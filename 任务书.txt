@@ -1,4 +1,4 @@
-﻿hy
+﻿hf
 	前台登录页面调整 以及登录验证
 
 ly
@@ -19,11 +19,12 @@ hyx
 
 
 任务分配： 可以商量换 不想做的  不懂得在群里问
+项目名称统一为bms
 前台地址：http://127.0.0.1:8080/bms
 后台地址: http://127.0.0.1:8080/bms/admin
 Github地址: https://github.com/tdhten/LMS.git
 
-开发工具：eclipse  jdk8  mysql navicat git2.15
+开发工具：eclipse  jdk8  mysql navicat 
 
 
 醉了
